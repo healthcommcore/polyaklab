@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+ <params>
+  <param name="flickrKey" type="text" default="" label="Flickr Key" description="Your Flickr Key" />
+  <param name="flickrUsername" type="text" default="" label="Flickr Username" description="Your Flickr Username" />
+  <param name="flickrMaxPhotosPerPage" type="text" default="15" label="Max Photos Per Page" description="Max Photos Per Page" />
+  <param name="flickrMaxPhotosPerRow" type="text" default="3" label="Max Photos Per Row" description="Max Photos Per Row" />
+	<param name="flickrLightboxEnabled" type="radio" default="1" label="Lightbox Effects" description="Show/Hide Lightbox Effects">
+	<option value="0">Hide</option>
+	<option value="1">Show</option>
+</param>
+	<param name="flickrInstantEnabled" type="radio" default="1" label="Instant Effects" description="Show/Hide Instant Effects">
+	<option value="0">Hide</option>
+	<option value="1">Show</option>
+</param>
+ 
+</params>
+</config>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="component" version="1.5.0">
+	<name>Joo Flickr Gallery 15</name>
+	<creationDate>July 2010</creationDate>
+	<author>Zasha M.</author>
+	<authorEmail>zzasha2007@gmail.com</authorEmail>
+	<authorUrl>http://eshiok.com</authorUrl>
+	<copyright>Copyright (C) 2010 eShiok.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.1</version>
+ <files>
+		<filename>jooflickrgallery15.php</filename>
+		<filename>jooflickrgallery15.html.php</filename>
+		<filename>images/ajax-loader.gif</filename>
+		<filename>images/lightbox-blank.gif</filename>
+		<filename>images/lightbox-btn-close.gif</filename>
+		<filename>images/lightbox-btn-next.gif</filename>
+		<filename>images/lightbox-btn-prev.gif</filename>
+		<filename>images/lightbox-ico-loading.gif</filename>
+		<filename>images/arrow_left.png</filename>
+		<filename>images/arrow_left_double.png</filename>
+		<filename>images/arrow_left_double_small.png</filename>
+		<filename>images/arrow_left_double_small_on.png</filename>
+		<filename>images/arrow_left_small.png</filename>
+		<filename>images/arrow_left_small_on.png</filename>
+		<filename>images/arrow_right.png</filename>
+		<filename>images/arrow_right_double.png</filename>
+		<filename>images/arrow_right_double_small.png</filename>
+		<filename>images/arrow_right_double_small_on.png</filename>
+		<filename>images/arrow_right_small.png</filename>
+		<filename>images/arrow_right_small_on.png</filename>
+		<filename>images/info.png</filename>
+		<filename>images/flickr.png</filename>
+		<filename>images/flickr_small_off.png</filename>
+		<filename>images/flickr_small_on.png</filename>
+		<filename>images/productbrowser_scrollbar_small.png</filename>
+		<filename>images/productbrowser_scroller.png</filename>
+		<filename>images/productbrowser_scroller_small.png</filename>
+		<filename>jquery-1.2.6.min.js</filename>
+		<filename>jquery-ui-personalized-1.6rc2.min.js</filename>
+		<filename>jquery.flickr-1.0.js</filename>
+		<filename>jquery.flickrGallery-1.0.2.js</filename>
+		<filename>jquery.hoverIntent.minified.js</filename>
+		<filename>jquery.lightbox-0.5.min.js</filename>
+		<filename>flickrGallery-large.css</filename>
+		<filename>flickrGallery-small.css</filename>
+		<filename>jquery.lightbox-0.5.css</filename>
+ </files>
+ <install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+ 
+  <administration>
+     <menu>Joo Flickr Gallery 15</menu> 
+     <files>
+		<filename>admin.jooflickrgallery15.php</filename>
+		<filename>index.html</filename>
+		<filename>toolbar.jooflickrgallery15.php</filename>
+		<filename>toolbar.jooflickrgallery15.html.php</filename>
+		<filename>install.mysql.sql</filename>
+		<filename>uninstall.mysql.sql</filename>      
+    </files>
+   </administration>
+   
+</install>

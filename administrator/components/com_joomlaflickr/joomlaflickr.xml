@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>Joomla Flickr</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>January 25, 2008</creationDate>
+	<author>Roberto Aloi</author>
+	<authorEmail>prof3ta@gmail.com</authorEmail>
+	<authorUrl>http://prof3ta.netsons.org</authorUrl>
+	<license>GNU GPL</license>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0.4</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Create your Flickr photogallery within your Joomla website</description>
+
+	<!-- Site Main File Copy Section -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>joomlaflickr.php</filename>
+		<filename>controller.php</filename>
+		<filename>views/index.html</filename>
+		<filename>views/joomlaflickr/index.html</filename>
+		<filename>views/joomlaflickr/view.html.php</filename>
+		<filename>views/joomlaflickr/tmpl/index.html</filename>
+		<filename>views/joomlaflickr/tmpl/default.php</filename>
+		<filename>views/album/index.html</filename>
+		<filename>views/album/view.html.php</filename>
+		<filename>views/album/tmpl/index.html</filename>
+		<filename>views/album/tmpl/default.php</filename>
+		<filename>models/joomlaflickr.php</filename>
+
+		<!-- phpFlickr Libraries -->
+		<filename>libraries/phpFlickr/auth.php</filename>
+		<filename>libraries/phpFlickr/getToken.php</filename>
+		<filename>libraries/phpFlickr/phpFlickr.php</filename>
+		<filename>libraries/phpFlickr/PEAR/DB.php</filename>
+		<filename>libraries/phpFlickr/PEAR/PEAR.php</filename>
+		<filename>libraries/phpFlickr/PEAR/DB/common.php</filename>
+		<filename>libraries/phpFlickr/PEAR/DB/mysql.php</filename>
+		<filename>libraries/phpFlickr/PEAR/DB/pgsql.php</filename>
+		<filename>libraries/phpFlickr/PEAR/DB/storage.php</filename>
+		<filename>libraries/phpFlickr/PEAR/HTTP/Request.php</filename>
+		<filename>libraries/phpFlickr/PEAR/HTTP/Request/Listener.php</filename>
+		<filename>libraries/phpFlickr/PEAR/Net/Socket.php</filename>
+		<filename>libraries/phpFlickr/PEAR/Net/URL.php</filename>
+
+		<!-- lightbox libraries -->
+		<filename>libraries/index.html</filename>
+		<filename>libraries/lightbox/css/lightbox.css</filename>
+		<filename>libraries/lightbox/images/bullet.gif</filename>
+		<filename>libraries/lightbox/images/close.gif</filename>
+		<filename>libraries/lightbox/images/closelabel.gif</filename>
+		<filename>libraries/lightbox/images/donate-button.gif</filename>
+		<filename>libraries/lightbox/images/download-icon.gif</filename>
+		<filename>libraries/lightbox/images/image-1.jpg</filename>
+		<filename>libraries/lightbox/images/loading.gif</filename>
+		<filename>libraries/lightbox/images/nextlabel.gif</filename>
+		<filename>libraries/lightbox/images/prevlabel.gif</filename>
+		<filename>libraries/lightbox/images/thumb-1.jpg</filename>
+		<filename>libraries/lightbox/index.html</filename>
+		<filename>libraries/lightbox/js/builder.js</filename>
+		<filename>libraries/lightbox/js/effects.js</filename>
+		<filename>libraries/lightbox/js/lightbox.js</filename>
+		<filename>libraries/lightbox/js/prototype.js</filename>
+		<filename>libraries/lightbox/js/scriptaculous.js</filename>
+
+		<!-- instant libraries -->
+		<filename>libraries/instant/index.html</filename>
+		<filename>libraries/instant/instant.js</filename>
+
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.com_joomlaflickr.ini</language>
+		<language tag="it-IT">it-IT.com_joomlaflickr.ini</language>
+	</languages>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu>Joomla Flickr</menu>
+		
+		<!-- Administration Main File Copy Section -->
+		<files>
+			<filename>config.xml</filename>
+		</files>
+		<files folder="admin">
+		<!-- Site Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>admin.joomlaflickr.php</filename>
+		</files>
+
+		<languages>
+			<language tag="en-GB">en-GB.com_joomlaflickr.ini</language>
+			<language tag="it-IT">it-IT.com_joomlaflickr.ini</language>
+		</languages>
+	</administration>
+	<params>
+	</params>
+</install>
